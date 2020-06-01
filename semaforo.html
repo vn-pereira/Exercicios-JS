@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Semáforo</title>
+    </head>
+ 
+            <!--5. Semáforo: faça uma função que recebe como parâmetro as strings "verde", "amarelo" ou
+            "vermelho". Caso o parâmetro passado seja "verde", a função deve retornar "pode passar!", caso
+            seja "amarelo", retorna "melhor freiar", caso seja "vermelhor", "pare já!". Utilize document.write
+            para escrever na tela o resultado desta função com os parâmetros a sua escolha. Teste todas as
+            saídas possíveis.-->
+           <script>
+              // var cor1 ="verde"; 
+              // var cor2 ="amarelo";
+              //var cor3 ="vermelho";
+               var corDigitada = prompt("Informe a cor do Sinal de transito (verde,amarela ou vermelha)").toLowerCase();
+               
+               function corSemaforo(){
+                   
+                console.log(corDigitada); 
+                
+                if(corDigitada == 'verde'){
+                    document.write("pode passar!");
+                }
+                else if(corDigitada == 'amarelo'){
+                    document.write("melhor freiar");    
+                }
+                else if(corDigitada == 'vermelho'){
+                    document.write("pare já");    
+                } 
+                else{
+                    document.write("Sinal quebrado ou cor informada incorretamente");  
+                } 
+               }
+
+               corSemaforo();
+           </script>
+           
+           <body>
+            </body>
+</html>

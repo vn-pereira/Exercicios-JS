@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>A vidente</title>
+    </head>
+
+
+        <script>
+             //var ano = 2020;  variaveis globais
+             //var nome = "Vanessa";
+             //var quantidadeDeFilhos = 1;
+             //var cidade = "Rio de Janeiro";
+             //var profissao = "Dev Web"; 
+                
+                function aVidente(nome, quantidadeDeFilhos, cidade, profissao) { //o parametro que foi passado aqui em cima
+                   document.write("A vidente prevê: "+ nome + " terá " + quantidadeDeFilhos + 
+                   " filho e " + " viverá em "+ cidade + " trabalhando como "+ profissao);
+                }     
+        </script>
+
+        <script>
+            function leveiParaIlha(item1, item2, item3){
+                //var item1 = comida;
+                //var item2 = gps;
+                //var item3 = facão;
+                document.write("Eu levaria para uma ilha deserta: " + item1 +", "+ item2 +" e " + item3);
+            }
+        </script>
+        
+        <script>
+            function escolhaAnimal(animal1, animal2){
+                //var animal1 = "Pavão";
+                //var animal2 ="Tigre";
+                document.write("Num primeiro momento, eu gostaria de ser um(a): " + animal1 + <br/> + "Pensando melhor, prefiro ser um(a): "+ animal2);
+              
+
+            }
+        </script>
+        <body>
+            <header>                                    <!--o parametro na function acima está sendo chamado aqui embaixo-->
+                <button type="button" onclick="aVidente('Vanessa', 1 , 'Rio de Janeiro', 'Dev web')">Desvendar</button>
+                <button type="button" onclick="leveiParaIlha('comida','gps','facão')">Mistério</button>
+                <button type="button" onclick="escolhaAnimal('Pavão','Tigre')">Animal</button>
+            </header>                                   
+        </body>
+    </html>
