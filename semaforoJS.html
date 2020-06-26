@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script>
+            //let cor1 = verde;
+            //let cor2 = amarelo;
+            //let cor3 = vermelho;
+                        mudaCor1();
+
+            function mudaCor1 (){
+                     setTimeout(function() { alert("Vermelho");}, 3000);
+                        mudaCor2();
+                }
+            
+            function mudaCor2 (){
+                     setTimeout(function() { alert("Amarelo");}, 3000);
+                        mudaCor3();
+                }    
+            
+            function mudaCor3 (){
+                     setTimeout(function() { alert("Verde");}, 3000);
+                        mudaCor1();
+                }  
+        </script>
+</body>
+</html>
+
