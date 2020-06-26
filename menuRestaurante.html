@@ -33,7 +33,7 @@
             }
             ExibirMenu();
 
-            function pedidoCliente(escolhaCliente){ //
+            function pedidoCliente(escolhaCliente){ 
 
                 if ((escolhaCliente == 'refrigerante') || (escolhaCliente == 1)) {
                     document.write("O pedido do(a) Sra foi Refrigerante");
@@ -50,9 +50,9 @@
             }
 
             function fazerPedido(){
-                var resposta = prompt("Qual é o pedido Sr(a)?").toLowerCase(); //a variavel armazena o dado que o usuário digitou
-                console.log(resposta); // para retornar a resposta no console ou pode retornar qualquer coisa no JS
-                pedidoCliente(resposta); //chamando a função pedidoCliente e como parametro 'resposta' da var declarada acima
+                var resposta = prompt("Qual é o pedido Sr(a)?").toLowerCase();
+                console.log(resposta); 
+                pedidoCliente(resposta); 
             }
         </script>
 
